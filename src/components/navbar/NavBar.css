@@ -1,0 +1,14 @@
+[data-icon="ellipsis"] {
+  fill: white;
+}
+
+[aria-label="ellipsis"] svg {
+  display: none;
+}
+[aria-label="ellipsis"]::after {
+  content: url("../../assets/menu_icon.svg");
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
