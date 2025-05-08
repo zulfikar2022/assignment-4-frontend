@@ -4,6 +4,20 @@ This is the frontend of an e-commerce website for motorbikes, built using React 
 
 ## Features
 
+### Admin Features:
+
+- ![Add Icon](https://img.shields.io/badge/-Add%20New%20Products-4CAF50?style=flat-square) **Add New Products**: Admins can add new motorbike products to the inventory.
+- ![Update Icon](https://img.shields.io/badge/-Update%20Existing%20Products-FFC107?style=flat-square) **Update Existing Products**: Modify details of existing products.
+- ![Delete Icon](https://img.shields.io/badge/-Delete%20Products-F44336?style=flat-square) **Delete Products**: Remove products from the inventory.
+- ![View Icon](https://img.shields.io/badge/-View%20Customers%20List-2196F3?style=flat-square) **View Customers List**: Access a list of all registered customers.
+- ![Details Icon](https://img.shields.io/badge/-View%20Customer%20Details-9C27B0?style=flat-square) **View Customer Details**: See detailed information about individual customers.
+- ![Status Icon](https://img.shields.io/badge/-Change%20Customer%20Status-FF9800?style=flat-square) **Change Customer Status**: Update the status of customer accounts.
+- ![Orders Icon](https://img.shields.io/badge/-Manage%20Orders-3F51B5?style=flat-square) **Manage Orders**: Oversee and manage customer orders.
+  - ![Details Icon](https://img.shields.io/badge/-View%20Order%20Details-673AB7?style=flat-square) **View Order Details**: Inspect details of specific orders.
+  - ![Cancel Icon](https://img.shields.io/badge/-Cancel%20Unpaid%20Orders-E91E63?style=flat-square) **Cancel Unpaid Orders**: Cancel orders that have not been paid for.
+- ![Monitor Icon](https://img.shields.io/badge/-Monitor%20Customer%20Status-00BCD4?style=flat-square) **Monitor Customer Status**: Track and monitor the status of customers.
+- ![Handle Icon](https://img.shields.io/badge/-Handle%20Order%20Management%20Efficiently-8BC34A?style=flat-square) **Handle Order Management Efficiently**: Ensure smooth and efficient order processing.
+
 ### Visitor Features:
 
 - View Home Page
