@@ -1,6 +1,6 @@
 # E-Commerce Frontend for Motorbikes
 
-This is the frontend of an e-commerce website for motorbikes, built using React and TypeScript. It provides an intuitive UI for browsing products, managing user accounts, and processing orders.
+This is the frontend of an e-commerce website for motorbikes, built using React and TypeScript. It provides an intuitive UI for browsing products, managing user accounts, processing orders, and supports payments through the ShurjoPay payment gateway.
 
 ## Features
 
