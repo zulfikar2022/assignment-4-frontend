@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useParams } from "react-router-dom";
 import { useGetSpecificProductQuery } from "../../redux/endpoints/products.endpoints";
 import { ThreeDot } from "react-loading-indicators";
@@ -70,9 +71,11 @@ const Checkout = () => {
           window.location.href = redirectionUrl;
           // window.open(redirectionUrl, "_blank");
         }
-      } catch (error: unknown) {
+      } catch (error: any) {
         // handling error about updating orders isPaid
-        message.error("Error while creating order. Please try again");
+        message.error(
+          error?.message || "Error while creating order. Please try again"
+        );
       }
       message.success(createdOrder.message);
     } catch (error) {

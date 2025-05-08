@@ -24,10 +24,10 @@ This is the frontend of an e-commerce website for motorbikes, built using React 
 
 ## Tech Stack
 
-- **Frontend Framework:** React
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **UI Components:** Ant Design
+- **Frontend Framework:** React ![React Icon](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat-square)
+- **Language:** TypeScript ![TypeScript Icon](https://img.shields.io/badge/-TypeScript-007ACC?logo=typescript&logoColor=white&style=flat-square)
+- **Styling:** Tailwind CSS ![Tailwind CSS Icon](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?logo=tailwind-css&logoColor=white&style=flat-square)
+- **UI Components:** Ant Design ![Ant Design Icon](https://img.shields.io/badge/-Ant%20Design-0170FE?logo=ant-design&logoColor=white&style=flat-square)
 
 ## Visit the site
 
