@@ -20,21 +20,23 @@ This is the frontend of an e-commerce website for motorbikes, built using React 
 
 ### Visitor Features:
 
-- View Home Page
-- Browse Products
-- About Us Page
-- Register and Log in
+- 🏠 **View Home Page**: Explore the main landing page of the site.
+- 🛍️ **Browse Products**: Check out the available motorbike products.
+- ℹ️ **About Us Page**: Learn more about the company and its mission.
+- 🔐 **Register and Log in**: Create an account or log in to access personalized features.
 
 ### Customer Features:
 
-- View Home Page
-- Browse Products
-- View About Us Page
-- Access Dashboard
-- Log Out
-- View Product Details
-- Purchase Products (Specify quantity, address, and phone number)
-- Redirect to ShurjoPay Sandbox Payment Gateway
+### Customer Features:
+
+- 🏠 **View Home Page**: Access the main landing page of the site.
+- 🛍️ **Browse Products**: Explore the available motorbike products.
+- ℹ️ **View About Us Page**: Learn about the company and its mission.
+- 📊 **Access Dashboard**: Navigate to the customer dashboard for personalized features.
+- 🚪 **Log Out**: Securely log out of your account.
+- 🔍 **View Product Details**: Get detailed information about specific products.
+- 🛒 **Purchase Products**: Specify quantity, address, and phone number to place an order.
+- 💳 **Redirect to ShurjoPay Sandbox Payment Gateway**: Complete payments securely through the ShurjoPay sandbox environment.
 
 ## Tech Stack
 
