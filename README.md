@@ -40,10 +40,11 @@ This is the frontend of an e-commerce website for motorbikes, built using React 
 
 ## Tech Stack
 
-- **Frontend Framework:** React ⚛️
-- **Language:** TypeScript 🟦
-- **Styling:** Tailwind CSS 🎨
-- **UI Components:** Ant Design 🧩
+- **Frontend Framework:** React ⚛️ (v18.3.1)
+- **Language:** TypeScript 🟦 (v5.6.2)
+- **Styling:** Tailwind CSS 🎨 (v3.4.17)
+- **UI Components:** Ant Design 🧩 (v5.23.3)
+- **Routing:** React Router DOM 🛤️ (v7.1.3)
 
 ## Visit the site
 
