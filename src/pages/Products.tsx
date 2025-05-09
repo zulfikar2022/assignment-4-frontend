@@ -13,7 +13,7 @@ const Products = () => {
 
   const { isLoading, isFetching, isError, data } = useGetProductsQuery({
     page: pageNumber,
-    limit: 9,
+    limit: 12,
     search: query,
   });
 
@@ -62,7 +62,7 @@ const Products = () => {
         </Button>
       </div>
 
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center">
         {products.length > 0 ? (
           products.map((product: Product) => (
             <ProductCard key={product._id} product={product} />

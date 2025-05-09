@@ -1,40 +1,42 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white p-10 rounded-lg my-5">
       <div className="max-w-6xl mx-auto grid md:grid-cols-4 grid-cols-1 gap-8">
         <div className="space-y-3">
           <h5 className="font-bold text-lg">Customer Support</h5>
-          <ul className="text-sm">
-            <li>Contact Us</li>
-            <li>FAQs</li>
-            <li>Return Policy</li>
-            <li>Shipping Information</li>
+          <ul className="text-sm flex flex-col space-y-3">
+            <Link to="/">Contact Us</Link>
+            <Link to="/">FAQs</Link>
+            <Link to="/">Return PoLink cy</Link>
+            <Link to="/">Shipping Information</Link>
           </ul>
         </div>
         <div className="space-y-3">
           <h5 className="font-bold text-lg">Company Information</h5>
-          <ul className="text-sm">
-            <li>About Us</li>
-            <li>Careers</li>
-            <li>Privacy Policy</li>
-            <li>Terms and Conditions</li>
+          <ul className="text-sm flex flex-col space-y-3">
+            <Link to="/">About Us</Link>
+            <Link to="/">Careers</Link>
+            <Link to="/">Privacy PoLink cy</Link>
+            <Link to="/">Terms and Conditions</Link>
           </ul>
         </div>
         <div className="space-y-3">
           <h5 className="font-bold text-lg">Explore</h5>
-          <ul className="text-sm">
-            <li>Motor Bikes</li>
-            <li>Accessories</li>
-            <li>New Arrivals</li>
-            <li>Best sellers</li>
+          <ul className="text-sm flex flex-col space-y-3">
+            <Link to="/">Motor Bikes</Link>
+            <Link to="/">Accessories</Link>
+            <Link to="/">New Arrivals</Link>
+            <Link to="/">Best sellers</Link>
           </ul>
         </div>
         <div className="space-y-3">
           <h5 className="font-bold text-lg">Stay Connected</h5>
-          <ul className="text-sm">
-            <li>Newsletter signup</li>
-            <li>Blog</li>
-            <li>Community Event</li>
+          <ul className="text-sm flex flex-col space-y-3">
+            <Link to="/">Newsletter signup</Link>
+            <Link to="/">Blog</Link>
+            <Link to="/">Community Event</Link>
           </ul>
         </div>
       </div>

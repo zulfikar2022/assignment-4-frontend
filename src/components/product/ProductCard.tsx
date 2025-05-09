@@ -6,6 +6,7 @@ const ProductCard = ({ product }: { product: Product }) => {
   const { Meta } = Card;
   const isAvailable = product?.stock > 0;
   const navigate = useNavigate();
+  console.log("ProductCard", product);
   return (
     <div style={{ height: 400, width: 300 }}>
       <Card
@@ -16,7 +17,7 @@ const ProductCard = ({ product }: { product: Product }) => {
         cover={
           <div>
             <img
-              className="rounded-lg h-48 w-full object-cover"
+              className="rounded-lg h-48 w-full object-cover "
               alt={`${product?.name}-${product?.brand}`}
               src={product?.imageUrl}
             />
@@ -35,6 +36,9 @@ const ProductCard = ({ product }: { product: Product }) => {
           </Button>
           {!isAvailable && (
             <div className="text-red-500 mt-2">Not Available</div>
+          )}
+          {isAvailable && (
+            <div className="text-black font-bold mt-2">${product.price}</div>
           )}
         </div>
       </Card>
